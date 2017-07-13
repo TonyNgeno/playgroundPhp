@@ -1,0 +1,1 @@
+<?php echo "<p>&copy 1997-".date("Y")." Brian Manoti Okinyi</p>";?>
