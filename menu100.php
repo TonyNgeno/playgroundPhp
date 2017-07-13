@@ -99,7 +99,7 @@
 			$ussd_string .= "4:Unsubscribe<br>";
 			$ussd_string .= "4:Subscribe<br>";
 			break;
-		case 98:  //Stori Ibambe
+		case 98:  //
 			$ussd_string = "8:Get your PUK Number<br>";
 			$ussd_string .= "9:Safaricom Home<br>";
 			$ussd_string .= "10:Find a Shop<br>";
@@ -112,3 +112,14 @@
 	}
 	echo $ussd_string;
 ?>
+<html>
+<body>
+	<div class="center">
+		<form action="menu100.php" method="post">
+			<!--Enter your option-->
+			<input type="text" name="Option" required="" autofocus>
+			<input type="submit" name="submit" value="Send">
+		</form>
+	</div>
+</body>
+</html>
